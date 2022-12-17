@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="section_inner">
-<div class="category-res">
+<div class="category-res 22">
 	<h1><?php single_cat_title(); ?></h1>
 <?php
 // проверяем есть ли посты в глобальном запросе - переменная $wp_query
@@ -12,7 +12,7 @@ if( have_posts() ){
 		?>
 
 <div <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-    <div class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+    <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     <?php the_excerpt(); ?>
 </div>
 

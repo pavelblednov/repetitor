@@ -4112,7 +4112,7 @@
 
 
     <meta content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <style>
+<style>
     @media (max-width:1500px) {
         #sections_preview {
             padding: 30px
@@ -4834,6 +4834,10 @@
     }
 
     @media (max-width:640px) {
+        .menu_social .site-logo {
+            max-width: 100px;
+        }
+
         #popup_wrapper {
             background-image: none
         }
@@ -5256,7 +5260,7 @@
             width: 95%
         }
     }
-    </style>
+</style>
 
 
     <meta name="format-detection" content="telephone=no">
@@ -5305,6 +5309,7 @@
             <div class="noise" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/null.png);"></div>
             <div class="section_inner width1170">
                 <div class="menu_social">
+                    <a href="<?php echo get_home_url()?>" class="site-logo"><img  data-lazy='1' data-src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt=""></a>
                     <div class="menu-toogler"><i class="fa fa-bars"></i></div>
                     <div style="color: #333333; background-color:#f8f8f8; font-size: 18px" class="menu1">
                     <?php

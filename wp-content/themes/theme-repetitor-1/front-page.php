@@ -37,7 +37,7 @@
 </div>
 
 <div data-hcolor="#ff6600" class="hide_line    section            section125  "
-    style="background-color:#ffffff;  background-image:url(<?php echo get_template_directory_uri(); ?>/img/null.png); padding-top:80px; padding-bottom:60px;"
+    style="display: none; background-color:#ffffff;  background-image:url(<?php echo get_template_directory_uri(); ?>/img/null.png); padding-top:80px; padding-bottom:60px;"
     data-id="2607425" id="b_2607425"><a name="a_2607425"></a>
 
 
@@ -92,12 +92,12 @@
                             <div class="field_input field_input_text"><input type="text" required="required"
                                     name="username" placeholder="Введите имя"></div>
                         </div>
-                        <div class="field">
+                        <!-- <div class="field">
                             <div class="field_title  ">Введите E-mail</div>
                             <div class="field_description"></div>
                             <div class="field_input field_input_email"><input type="email" required="required"
                                     name="useremail" placeholder="mail@mail.ru"></div>
-                        </div>
+                        </div> -->
                         <div class="field">
                             <div class="field_title  ">Введите номер телефона</div>
                             <div class="field_description"></div>

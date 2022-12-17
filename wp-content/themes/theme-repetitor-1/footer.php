@@ -6,7 +6,7 @@
                                             <div class="logo_block">
                                                 
                                                     
-                                                            <div class="logo_img"><img  data-lazy='1' data-src="<?php echo get_template_directory_uri(); ?>/img/tobiz_logo_def_black.png" alt=""></div>
+                                                            <div class="logo_img"><img  data-lazy='1' data-src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt=""></div>
                                                     
                                                 
                                                 <div class="slogan">

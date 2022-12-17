@@ -3,6 +3,16 @@ Theme Name: Шаблон учителя
 Author: Denkon
 Author URI: https://denkon.ru
 */
+    .category-res .post {
+        margin-bottom: 30px;
+    }
+
+    .category-res .post-title {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+
     #img_zoomer_close,
     #img_zoomer_close.portret {
         line-height: 30px;
@@ -14264,6 +14274,16 @@ Author URI: https://denkon.ru
         justify-content: space-between
     }
 
+    .menu_social .site-logo {
+        outline: none !important;
+    }
+
+    .menu_social .site-logo img {
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+    }
+
     .section120 .sn {
         display: block;
         position: relative;
@@ -14593,7 +14613,8 @@ Author URI: https://denkon.ru
         .section120 .menu-toogler {
             height: 40px;
             line-height: 40px;
-            width: 40px
+            width: 40px;
+            margin-left: 15px;
         }
 
         .section120.dark .menu-toogler.active {
@@ -17033,6 +17054,10 @@ Author URI: https://denkon.ru
     .section109 .menu li a:hover {
         color: inherit;
         text-decoration: underline
+    }
+
+    .section109 .menu2 {
+        display: none;
     }
 
     .section109.dark .menu li a:hover {

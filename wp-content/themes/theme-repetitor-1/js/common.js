@@ -22,7 +22,7 @@ $(document).ready(function(){
             data: {
                 action: 'form-1',
                 username: $('#form-1 input[name=username]').val(),
-                useremail: $('#form-1 input[name=useremail]').val(),
+                // useremail: $('#form-1 input[name=useremail]').val(),
                 userphone: $('#form-1 input[name=userphone]').val()
             },
             success: function(data){

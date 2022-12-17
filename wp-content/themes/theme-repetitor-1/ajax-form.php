@@ -4,16 +4,16 @@ if($_POST['action'] == '' or empty($_POST['action'])) return;
 
 if($_POST['action'] == 'form-1'){
     $username = strip_tags($_POST['username']);
-    $useremail = strip_tags($_POST['useremail']);
+    // $useremail = strip_tags($_POST['useremail']);
     $userphone = strip_tags($_POST['userphone']);
     $error = '';
 
     if(empty($username)){
         $error = 'Введите имя';
     }
-    if(empty($useremail)){
-        $error = 'Введите e-mail';
-    }
+    // if(empty($useremail)){
+    //     $error = 'Введите e-mail';
+    // }
     if(empty($userphone)){
         $error = 'Введите телефон';
     }
@@ -21,13 +21,13 @@ if($_POST['action'] == 'form-1'){
         echo 'Неправильно заполненны поля!';
     }
 
-    $to      = 'dk7777@bk.ru';
+    $to      = 'pavellled@gmail.com';
     $subject = 'Заявка с сайта';
     $message = "
     <p>Имя: $username</p>
-    <p>E-mail: $useremail</p>
     <p>Телефон: $userphone</p>
     ";
+    // <p>E-mail: $useremail</p>
     $headers  = "Content-type: text/html; charset=utf-8 \r\n"; 
     $headers .= "From: Заявка <from@example.com>\r\n";
     if(mail($to, $subject, $message, $headers)){
