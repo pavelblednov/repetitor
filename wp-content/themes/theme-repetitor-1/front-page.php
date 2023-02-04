@@ -83,40 +83,20 @@
         <div class="popup_form w5" data-form="w5">
             <div class="popup_form_inner">
                 <div class="popup_form_close"></div>
-                <div class="popup_form_title">Оставить заявку</div>
-                <form action="" enctype="multipart/form-data" method="post" id="form-1">
-                    <div class="form1"><input type="hidden" name="Название формы" value="">
-                    <div class="field">
-                            <div class="field_title ">Введите имя</div>
-                            <div class="field_description"></div>
-                            <div class="field_input field_input_text"><input type="text" required="required"
-                                    name="username" placeholder="Введите имя"></div>
-                        </div>
-                        <!-- <div class="field">
-                            <div class="field_title  ">Введите E-mail</div>
-                            <div class="field_description"></div>
-                            <div class="field_input field_input_email"><input type="email" required="required"
-                                    name="useremail" placeholder="mail@mail.ru"></div>
-                        </div> -->
-                        <div class="field">
-                            <div class="field_title  ">Введите номер телефона</div>
-                            <div class="field_description"></div>
-                            <div class="field_input field_input_phone"><input type="text" required="required"
-                                    pattern="[+)( .-]*[0-9]+[0-9+)( .-]*" minlength="6" name="userphone"
-                                    placeholder="xxx-xxx-xxx"></div>
-                        </div>
-                        <div class="field">
-                            <div class="field_input"><input type="submit" class="submit_btn surround"
-                                    data-hcolor="#ed7a00" data-action="thanks" data-metrica_event="undefined"
-                                    data-fb_pixel="undefined" data-vk_pixel="undefined" data-gtag_event="undefined"
-                                    data-url="" data-amount="0" data-product_name="undefined" value="Отправить"
-                                    style="background-color:#ed7a00;    border-radius: 2em; ;  box-shadow: 0; ; font-size: 18px; ">
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="popup_form_text">Нажимая на кнопку, Вы принимаете Положение и <a target="_blank"
-                        href="/политика-конфиденциальности/">Согласие</a> на обработку персональных данных.</div>
+                <div class="popup_form_title">Связаться со мной</div>
+                <P style="margin-bottom: 25px">Для связи со мной напиште в Telegram или WhatsApp (отвечает Павел)</P>
+
+                <a href="https://t.me/pavelled" target="_blank" class="btn1 surround" data-id="null" data-hcolor="#ed7a00"
+                    style="background-color:#ed7a00;  border-radius: 2em;   box-shadow: none;  font-size: 18px; width: 100%;  ">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><path fill="#039be5" d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"/></svg>
+                    Перейти в Telegram
+                </a>
+
+                <a href="https://wa.me/79264550855" target="_blank" class="btn1 surround" data-id="null" data-hcolor="#ed7a00"
+                    style="background-color:#ed7a00;  border-radius: 2em;   box-shadow: none;  font-size: 18px; width: 100%;  ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98.488 98.488"><path fill="#4caf50" d="M49.256 0h-.025A49.213 49.213 0 0 0 9.375 78.107L3.238 96.4l18.928-6.05A49.235 49.235 0 1 0 49.256 0Z" data-name="Path 55"/><path fill="#fafafa" d="M77.91 69.535c-1.188 3.355-5.9 6.137-9.664 6.95-2.573.548-5.934.985-17.248-3.706-14.472-6-23.791-20.7-24.517-21.655-.7-.954-5.848-7.787-5.848-14.853a15.721 15.721 0 0 1 5.035-11.985 7.155 7.155 0 0 1 5.035-1.767c.609 0 1.157.031 1.65.055 1.447.062 2.173.148 3.127 2.431 1.188 2.862 4.081 9.929 4.426 10.655a2.931 2.931 0 0 1 .209 2.665 8.51 8.51 0 0 1-1.594 2.259c-.726.837-1.416 1.477-2.142 2.376-.665.782-1.416 1.619-.579 3.065a43.709 43.709 0 0 0 7.99 9.929 36.2 36.2 0 0 0 11.548 7.122 3.114 3.114 0 0 0 3.472-.548 59.579 59.579 0 0 0 3.847-5.1 2.748 2.748 0 0 1 3.533-1.071c1.33.462 8.365 3.94 9.812 4.66s2.4 1.071 2.751 1.68.345 3.481-.843 6.838Z" data-name="Path 56"/></svg>
+                    Перейти в WhatsApp
+                </a>
             </div>
         </div>
 

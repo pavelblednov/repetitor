@@ -521,6 +521,18 @@ Author URI: https://denkon.ru
         overflow-y: auto
     }
 
+    .popup_form a.btn1 {
+        margin: 15px 0;
+    }
+    .popup_form a.btn1:last-child {
+        margin-bottom: 0;
+    }
+    .popup_form a.btn1 svg {
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+    }
+
     .popup_form_inner {
         width: 350px;
         height: auto;
@@ -530,7 +542,8 @@ Author URI: https://denkon.ru
         top: 100px;
         left: 50%;
         margin-left: -190px;
-        margin-bottom: 70px
+        margin-bottom: 70px;
+        font-weight: 400;
     }
 
     #basket_form_close,
@@ -554,7 +567,7 @@ Author URI: https://denkon.ru
     }
 
     .popup_form_title {
-        font-size: 17px;
+        font-size: 25px;
         margin-bottom: 15px;
         color: #000;
         margin-right: 20px
