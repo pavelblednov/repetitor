@@ -409,6 +409,24 @@ Author URI: https://denkon.ru
         box-shadow: none !important
     }
 
+    .section-404 {
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .section-404 .title {
+        display: block;
+        margin-bottom: 40px;
+        font-size: 150px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    .section-404  a.btn1 {
+        margin-top: 30px;
+    }
+
     .section,
     .section.fixed {
         background-size: cover
