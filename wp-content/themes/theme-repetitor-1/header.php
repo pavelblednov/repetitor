@@ -5300,6 +5300,9 @@
 </head>
 
 <body <?php body_class($class); ?>>
+
+    <?php get_template_part('template-parts/analytics'); ?>
+
     <div id="wrapper">
         <div class="hide_line   section             section120  "
             style="background-color:#f8f8f8 ;  background-image:url(<?php echo get_template_directory_uri(); ?>/null.png);" data-id="2607346"
