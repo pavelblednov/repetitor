@@ -391,21 +391,23 @@ var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 
 <div class="modal-wrapper" style="display: none;" id="modal">
 	<div class="modal order" id="order-modal">
-		<h2 class="order-header">Для записи на занятие напишите<br />менеджеру Ирины Анатольевны</h2>
-		<div class="manager-wrapper">
+		<h2 class="order-header">Для записи на занятие напишите<br />в Telegram или WhatsApp</h2>
+		<div class="order-buttons" id="order-buttons" style="margin-left:0">
+			<a class="order-button" href="https://wa.me/79015504654">
+				<img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/order/whatsapp.svg" alt="whatsapp" />
+				<span>WhatsApp</span>
+			</a>
+			<a class="order-button" href="https://t.me/repetitor_po_russkomu_ru">
+				<img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/order/telegram.svg" alt="telegram" />
+				<span>Telegram</span>
+			</a>
+		</div>
+
+		<div class="manager-wrapper" style="display:none">
 			<div class="manager-image"><img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/manager.jpg" atl="Менеджер" /></div>
 			<div class="manager-text">
 				<h3 class="order-subheader">Павел, ваш персональный менеджер</h3>
-				<div class="order-buttons" id="order-buttons">
-					<a class="order-button" href="https://wa.me/79264550855">
-						<img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/order/whatsapp.svg" alt="whatsapp" />
-						<span>WhatsApp</span>
-					</a>
-					<a class="order-button" href="https://t.me/pavelled">
-						<img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/order/telegram.svg" alt="telegram" />
-						<span>Telegram</span>
-					</a>
-				</div>
+		
 			</div>
 		</div>
 		<img src="<?php echo get_template_directory_uri(); ?>/landing-assets/assets/order/cross.svg" class="order-cross-button" id="modal-cross" />
